@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import jfxtras.labs.scene.layout.ScalableContentPane?>
+
+<?import javafx.scene.text.TextFlow?>
+<ScalableContentPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uk.tldcode.ClientController">
+    <children>
+        <ScrollPane fx:id="channels"><TextArea>Channels</TextArea></ScrollPane>
+        <ScrollPane fx:id="chat"><TextArea>Chat</TextArea></ScrollPane>
+        <TextField fx:id="input">Input</TextField>
+        <Button fx:id="send" onAction="#Send" text="Send">Send</Button>
+        <ScrollPane fx:id="users"><TextArea>Users</TextArea></ScrollPane>
+    </children>
+
+
+        </ScalableContentPane>
